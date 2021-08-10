@@ -1,0 +1,23 @@
+{
+	"name" : "Ban Cleaner",
+	"description" : "Cleans ban list with a click",
+	"author" : "Soum_Axetuirk",
+	"contact" : "soumaxetuirk@gmail.com",
+	"version" : "0.1",
+	"hooks": 
+	[
+			
+			{"hook_id" : "lib/managers/menumanager", "script_path" : "bancleaner.lua"}
+	],
+	"keybinds" : [
+		{
+			"keybind_id": "Ban_clean",
+            "name": "Ban clean",
+            "description": "ban clean key",
+            "script_path": "bancleaner.lua",
+            "run_in_menu": true,
+            "run_in_game": true
+		}
+	]
+	
+}
